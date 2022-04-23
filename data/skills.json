@@ -1,0 +1,62 @@
+[
+    {
+        "src": "html.png",
+        "height": 80,
+        "width": 80
+    },
+    {
+        "src": "css.png",
+        "height": 80,
+        "width": 60
+    },
+    {
+        "src": "javascript.png",
+        "height": 80,
+        "width": 80
+    },
+    {
+        "src": "typescript.png",
+        "height": 80,
+        "width": 80
+    },
+    {
+        "src": "tailwind.png",
+        "height": 80,
+        "width": 80
+    },
+    {
+        "src": "react.png",
+        "height": 80,
+        "width": 80
+    },
+    {
+        "src": "git.png",
+        "height": 80,
+        "width": 80
+    },
+    {
+        "src": "github.png",
+        "height": 80,
+        "width": 80
+    },
+    {
+        "src": "nodejs.svg",
+        "height": 80,
+        "width": 80
+    },
+    {
+        "src": "nextjs.jpg",
+        "height": 80,
+        "width": 80
+    },
+    {
+        "src": "python.png",
+        "height": 80,
+        "width": 80
+    },
+    {
+        "src": "java.png",
+        "height": 80,
+        "width": 80
+    }
+]

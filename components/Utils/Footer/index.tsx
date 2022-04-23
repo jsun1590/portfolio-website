@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="flex justify-center py-4">
           <Social />
         </div>
-        <p className="text-center text-gray-400 ">
+        <p className="pb-4 text-center text-gray-400">
           © Copyright 2022 Jack Sun | All rights reserved.
         </p>
       </footer>

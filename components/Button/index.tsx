@@ -6,10 +6,10 @@ interface Props {
 }
 
 
-const index = (props: Props) => {
+const Button = (props: Props) => {
   return (
     <button className="px-2 py-1 mr-3 border-2">{props.content}</button>
   )
 }
 
-export default index
+export default Button

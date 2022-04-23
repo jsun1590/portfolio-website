@@ -4,16 +4,18 @@ import NavBar from "@components/Utils/NavBar";
 import Skills from "@components/Skills";
 import Footer from "@components/Utils/Footer";
 import { useState } from "react";
+import Heading from "@components/Heading";
 
 const Home: NextPage = () => {
   const [animated, setAnimated] = useState(false);
   return (
     <>
-      <Meta title="Boom" desc="Test" />
+      <Meta title="Home" desc="Test" />
       <NavBar />
 
-      <main className="min-h-screen bg-neutral-800">
-        <p className="text-center text-white text-9xl mb-9">
+      <main className="min-h-screen px-[20%] bg-neutral-800">
+        
+        <h1 className="mb-10 text-center text-white pt-28 text-9xl">
           <span
             onMouseEnter={() => setAnimated(() => true)}
             onAnimationEnd={() => setAnimated(() => false)}
@@ -24,7 +26,7 @@ const Home: NextPage = () => {
             👋
           </span>
           Hi there!
-        </p>
+        </h1>
 
         <Skills />
       </main>
