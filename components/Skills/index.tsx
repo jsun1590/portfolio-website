@@ -9,11 +9,17 @@ const Skills = () => {
       <Heading content="Technologies" type="h2" />
       <div className="grid grid-cols-6 gap-8 mx-auto justify-items-center align-center">
         {skillsData.map((skill) => (
-          <Image
-            src={"/skills/" + skill.src}
-            width={skill.width}
-            height={skill.height}
-          />
+          <div
+            key={skill.src.slice(0, -4)}
+            className="transition-transform hover:scale-125"
+          >
+            <Image
+              alt={skill.src.slice(0, -4)}
+              src={"/skills/" + skill.src}
+              width={skill.width}
+              height={skill.height}
+            />
+          </div>
         ))}
       </div>
     </>

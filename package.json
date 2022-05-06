@@ -14,9 +14,11 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
     "next": "12.1.4",
+    "next-themes": "^0.1.1",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "react-wavify": "^1.5.7"
+    "react-wavify": "^1.5.7",
+    "sharp": "^0.30.4"
   },
   "devDependencies": {
     "@types/node": "17.0.23",
