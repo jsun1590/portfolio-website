@@ -1,8 +1,6 @@
 import type { NextPage } from "next";
 import Meta from "@components/Utils/Meta";
-import NavBar from "@components/Utils/NavBar";
 import Skills from "@components/Skills";
-import Footer from "@components/Utils/Footer";
 import { useState } from "react";
 import Heading from "@components/Heading";
 
@@ -28,8 +26,6 @@ const Home: NextPage = () => {
 
         <Skills />
       </main>
-
-      <Footer />
     </>
   );
 };

@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <nav className="sticky top-0 z-50 flex justify-between bg-gray-900 text-primary h-14">
       <div className="flex">
-        <Image src={"/logo.svg"} width={60} height={200} alt="Logo"/>
+        <Image src={"/logo.svg"} width={60} height={200} alt="Logo" />
 
         <a
           className="mx-3 my-auto transition-colors duration-300 hover:text-red-500"
@@ -24,6 +24,12 @@ const NavBar = () => {
           href="projects"
         >
           Projects
+        </a>
+        <a
+          className="mx-3 my-auto transition-colors duration-300 hover:text-red-500"
+          href="blog"
+        >
+          Blog
         </a>
       </div>
       <div className="my-auto">
