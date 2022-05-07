@@ -6,7 +6,7 @@ interface Props {
 }
 
 const Heading = (props: Props) => {
-  const common = " text-white mb-10";
+  const common = " mb-10";
   const headings = {
     h1: <h1 className={"mb-10 text-center text-9xl"}>{props.content}</h1>,
     h2: (
