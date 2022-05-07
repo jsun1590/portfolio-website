@@ -6,7 +6,7 @@ import Footer from "@components/Utils/Footer";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider enableSystem={true} attribute="class">
+    <ThemeProvider enableSystem={true}>
       <NavBar />
       <Component {...pageProps} />
       <Footer />
