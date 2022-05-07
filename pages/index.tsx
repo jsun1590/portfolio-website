@@ -2,8 +2,7 @@ import type { NextPage } from "next";
 import Meta from "@components/Utils/Meta";
 import Skills from "@components/Skills";
 import { useState } from "react";
-import Heading from "@components/Heading";
-
+import HomeIntro from "@components/HomeIntro";
 const Home: NextPage = () => {
   const [animated, setAnimated] = useState(false);
   return (
@@ -23,7 +22,7 @@ const Home: NextPage = () => {
           </span>
           Hi there!
         </h1>
-
+        <HomeIntro />
         <Skills />
       </main>
     </>
