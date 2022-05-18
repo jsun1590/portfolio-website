@@ -9,8 +9,8 @@ const Home: NextPage = () => {
     <>
       <Meta title="Home" desc="Test" />
 
-      <main className="min-h-screen px-[20%]">
-        <h1 className="mb-10 text-center pt-28 text-9xl">
+      <main className="min-h-screen lg:px-[15%] px-[10%]">
+        <h1 className="mb-10 text-6xl text-center sm:text-8xl pt-28 lg:text-9xl">
           <span
             onMouseEnter={() => setAnimated(() => true)}
             onAnimationEnd={() => setAnimated(() => false)}

@@ -1,15 +1,12 @@
-import React from 'react'
+import React from "react";
 
 interface Props {
-    content: string,
-    type: string,
+  content: string;
+  type: string;
 }
-
 
 const Button = (props: Props) => {
-  return (
-    <button className="px-2 py-1 mr-3 border-2">{props.content}</button>
-  )
-}
+  return <button className="px-2 py-1 mr-3 border-2">{props.content}</button>;
+};
 
-export default Button
+export default Button;

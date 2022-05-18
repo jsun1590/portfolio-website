@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Heading from "@components/Utils/Heading";
+import Anchor from "@components/Utils/Anchor";
 
 const HomeIntro = () => {
   return (
@@ -15,9 +16,10 @@ const HomeIntro = () => {
       />
       <p>
         My name is Jack, I am a first year{" "}
-        <a href="https://www.uwa.edu.au/study/courses/bachelor-of-philosophy">
-          Bachelor of Philosophy (Honours)
-        </a>{" "}
+        <Anchor
+          text="Bachelor of Philosophy (Honours)"
+          href="https://www.uwa.edu.au/study/courses/bachelor-of-philosophy"
+        />{" "}
         student majoring in Computer Science, Finance, and Cybersecurity at the
         University of Western Australia.
       </p>

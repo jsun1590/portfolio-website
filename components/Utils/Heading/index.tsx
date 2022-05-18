@@ -8,9 +8,18 @@ interface Props {
 const Heading = (props: Props) => {
   const common = " mb-10";
   const headings = {
-    h1: <h1 className={"mb-10 text-center text-9xl"}>{props.content}</h1>,
+    h1: (
+      <h1 className={"text-center sm:text-8xl lg:text-9xl text-6xl"}>
+        {props.content}
+      </h1>
+    ),
     h2: (
-      <h2 className={"mb-10 text-6xl underline decoration-sky-500" + common}>
+      <h2
+        className={
+          "sm:text-5xl lg:text-6xl text-4xl underline decoration-sky-500" +
+          common
+        }
+      >
         {props.content}
       </h2>
     ),
