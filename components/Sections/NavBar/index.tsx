@@ -11,10 +11,10 @@ const NavBar = () => {
 
   return (
     <nav className="sticky top-0 z-50 flex justify-between bg-gray-900 text-primary h-14">
-      <div className="">
+      <div className="flex items-center">
         <Link href="/">
-          <a>
-            <Image src={"/logo/logo.svg"} width={35} height={35} alt="Logo" />
+          <a className=" h-9">
+            <Image src={"/logo/logo.svg"} width={36} height={36} alt="Logo" />
           </a>
         </Link>
 
@@ -27,7 +27,7 @@ const NavBar = () => {
         </Link>
 
         <Link href="/projects">
-          <a className="mx-3 duration-300 hover:text-red-500">Projects</a>``
+          <a className="mx-3 duration-300 hover:text-red-500">Projects</a>
         </Link>
 
         <Link href="/blog">
@@ -35,7 +35,7 @@ const NavBar = () => {
         </Link>
       </div>
 
-      <div className="">
+      <div className="flex items-center">
         <button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
           <FontAwesomeIcon
             icon={theme === "dark" ? faSun : faMoon}
