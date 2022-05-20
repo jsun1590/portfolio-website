@@ -1,7 +1,7 @@
 import Button from "@components/Utils/Button";
 import Image from "next/image";
 import Link from "next/link";
-import DarkModeToggle from "./darkModeToggle";
+import DarkModeToggle from "./DarkModeToggle";
 
 const NavBar = () => {
   return (
