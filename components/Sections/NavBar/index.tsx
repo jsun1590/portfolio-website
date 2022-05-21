@@ -8,7 +8,7 @@ const NavBar = () => {
     <nav className="sticky top-0 z-50 flex justify-between bg-gray-900 text-primary h-14">
       <div className="flex items-center">
         <Link href="/">
-          <a className="ml-6 mr-3 h-9">
+          <a className="ml-6 mr-3 h-9 min-w-fit">
             <Image src={"/logo/logo.svg"} width={36} height={36} alt="Logo" />
           </a>
         </Link>
