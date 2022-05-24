@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const DarkModeToggle = () => {
   const [mounted, setMounted] = useState(false);
-  const { resolvedTheme: theme, setTheme } = useTheme();
+  const { theme, setTheme } = useTheme();
   useEffect(() => setMounted(true), []);
 
   const changeTheme = useCallback(
