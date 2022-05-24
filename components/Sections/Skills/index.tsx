@@ -7,7 +7,7 @@ import { useTheme } from "next-themes";
 const Skills = () => {
   const { theme, setTheme } = useTheme();
   return (
-    <section>
+    <section className="text-center md:text-left">
       <Heading content="Technologies" type="h2" />
       <div className="grid grid-cols-3 gap-8 mx-auto sm:grid-cols-4 md:grid-cols-6 justify-items-center align-center">
         {skillsData.map((skill) => (
