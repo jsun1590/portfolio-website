@@ -4,9 +4,9 @@ function Document() {
   return (
     <Html lang="en" translate="no">
       <Head />
-      <body className="text-black transition-colors bg-white dark:bg-neutral-800 dark:text-white">
+      <body className="text-black bg-white dark:bg-neutral-800 dark:text-white">
         <Main />
-        <NextScript />s{" "}
+        <NextScript />
       </body>
     </Html>
   );
