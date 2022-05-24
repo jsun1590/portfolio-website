@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="bg-slate-200 dark:bg-stone-900">
       <Wave
         fill=""
-        className="transition-colors bg-white dark:bg-neutral-800 child:translate-y-1 dark:child-2:fill-stone-900 child-2:fill-slate-200"
+        className="bg-white dark:bg-neutral-800 child:translate-y-1 dark:child-2:fill-stone-900 child-2:fill-slate-200"
         paused={false}
         options={{
           height: 30,
