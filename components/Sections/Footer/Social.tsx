@@ -11,7 +11,7 @@ const Social = () => {
       >
         <FontAwesomeIcon
           icon={faGithub}
-          className="w-10 h-10 p-2 text-center dark:text-white hover:!text-yellow-300"
+          className="transition-colors w-10 h-10 p-2 text-center dark:text-white hover:!text-yellow-300"
         />
       </a>
 
@@ -21,7 +21,7 @@ const Social = () => {
       >
         <FontAwesomeIcon
           icon={faLinkedin}
-          className="w-10 h-10 p-2 text-center dark:text-white hover:!text-blue-500"
+          className="transition-colors w-10 h-10 p-2 text-center dark:text-white hover:!text-blue-500"
         />
       </a>
     </section>
