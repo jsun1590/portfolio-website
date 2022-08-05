@@ -1,26 +1,22 @@
 [
-    {
-        "id": "chess",
-        "name": "Chess.com Bot",
-        "link": "",
-        "src": "github.png",
-        "description": "",
-        "technologies":
-        {
-            "selenium": "",
-            "Python": "python"
-        }
-    },
-    {
-        "id": "",
-        "name": "Chess.com Bot",
-        "link": "",
-        "src": "github.png",
-        "description": "",
-        "technologies":
-        {
-            "selenium": "",
-            "Python": "python"
-        }
+  {
+    "id": "chess",
+    "name": "Chess.com Bot",
+    "link": "https://github.com/jsun1590/chess.com-bot",
+    "src": "chess.png",
+    "description": "",
+    "technologies": {
+      "hello": "Dotnet"
     }
+  },
+  {
+    "id": "",
+    "name": "Chess.com Bot",
+    "link": "",
+    "src": "github.png",
+    "description": "",
+    "technologies": {
+      "helo": "Dotnet"
+    }
+  }
 ]
