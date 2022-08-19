@@ -1,74 +1,110 @@
 [
-    {
-        "src": "html.png",
-        "height": 80,
-        "width": 80,
-        "dark": true
-    },
-    {
-        "src": "css.png",
-        "height": 80,
-        "width": 60,
-        "dark": true
-    },
-    {
-        "src": "javascript.png",
-        "height": 80,
-        "width": 80,
-        "dark": false
-    },
-    {
-        "src": "typescript.png",
-        "height": 80,
-        "width": 80,
-        "dark": false
-    },
-    {
-        "src": "tailwind.png",
-        "height": 80,
-        "width": 80,
-        "dark": false
-    },
-    {
-        "src": "react.png",
-        "height": 80,
-        "width": 80,
-        "dark": false
-    },
-    {
-        "src": "git.png",
-        "height": 80,
-        "width": 80,
-        "dark": false
-    },
-    {
-        "src": "github.png",
-        "height": 80,
-        "width": 80,
-        "dark": true
-    },
-    {
-        "src": "nodejs.svg",
-        "height": 80,
-        "width": 80,
-        "dark": true
-    },
-    {
-        "src": "nextjs.jpg",
-        "height": 80,
-        "width": 80,
-        "dark": false
-    },
-    {
-        "src": "python.png",
-        "height": 80,
-        "width": 80,
-        "dark": false
-    },
-    {
-        "src": "java.png",
-        "height": 80,
-        "width": 80,
-        "dark": false
-    }
+  {
+    "src": "html.png",
+    "height": 80,
+    "width": 80,
+    "dark": true
+  },
+  {
+    "src": "css.png",
+    "height": 80,
+    "width": 60,
+    "dark": true
+  },
+  {
+    "src": "javascript.png",
+    "height": 80,
+    "width": 80,
+    "dark": false
+  },
+  {
+    "src": "typescript.png",
+    "height": 80,
+    "width": 80,
+    "dark": false
+  },
+  {
+    "src": "tailwind.png",
+    "height": 80,
+    "width": 80,
+    "dark": false
+  },
+  {
+    "src": "react.png",
+    "height": 80,
+    "width": 90,
+    "dark": false
+  },
+  {
+    "src": "git.png",
+    "height": 80,
+    "width": 80,
+    "dark": false
+  },
+  {
+    "src": "github.png",
+    "height": 80,
+    "width": 80,
+    "dark": true
+  },
+  {
+    "src": "nodejs.svg",
+    "height": 80,
+    "width": 80,
+    "dark": true
+  },
+  {
+    "src": "nextjs.jpg",
+    "height": 80,
+    "width": 80,
+    "dark": false
+  },
+  {
+    "src": "python.png",
+    "height": 80,
+    "width": 80,
+    "dark": false
+  },
+  {
+    "src": "django.svg",
+    "height": 80,
+    "width": 80,
+    "dark": false
+  },
+  {
+    "src": "java.png",
+    "height": 80,
+    "width": 80,
+    "dark": false
+  },
+  {
+    "src": "docker.webp",
+    "height": 80,
+    "width": 90,
+    "dark": false
+  },
+  {
+    "src": "vue.png",
+    "height": 80,
+    "width": 80,
+    "dark": false
+  },
+  {
+    "src": "nuxtjs.png",
+    "height": 80,
+    "width": 90,
+    "dark": false
+  },
+  {
+    "src": "postgres.png",
+    "height": 80,
+    "width": 80,
+    "dark": false
+  },
+  {
+    "src": "c.png",
+    "height": 80,
+    "width": 70,
+    "dark": false
+  }
 ]
