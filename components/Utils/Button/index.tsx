@@ -2,7 +2,6 @@ import React from "react";
 
 interface Props {
   content: string;
-  type: string;
 }
 
 const Button = (props: Props) => {

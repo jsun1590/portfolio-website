@@ -1,26 +1,13 @@
 [
-    {
-        "id": "chess",
-        "name": "Chess.com Bot",
-        "link": "",
-        "src": "github.png",
-        "description": "",
-        "technologies":
-        {
-            "selenium": "",
-            "Python": "python"
-        }
-    },
-    {
-        "id": "",
-        "name": "Chess.com Bot",
-        "link": "",
-        "src": "github.png",
-        "description": "",
-        "technologies":
-        {
-            "selenium": "",
-            "Python": "python"
-        }
+  {
+    "id": "chess",
+    "name": "Chess.com Bot",
+    "link": "https://github.com/jsun1590/chess.com-bot",
+    "src": "chess.png",
+    "description": "Simple Chess.com bot made in Python with the Chess and Selenium library.",
+    "technologies": {
+      "python": "Python",
+      "selenium": "Selenium"
     }
+  }
 ]

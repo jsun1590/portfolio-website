@@ -13,7 +13,7 @@ const Skills = () => {
         {skillsData.map((skill) => (
           <div
             key={skill.src.slice(0, -4)}
-            className="transition-transform hover:scale-125"
+            className="flex items-center transition-transform hover:scale-125"
           >
             <Image
               alt={skill.src.slice(0, -4)}

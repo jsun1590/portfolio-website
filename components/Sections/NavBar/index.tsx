@@ -21,9 +21,9 @@ const NavBar = () => {
           <a className="mx-3 duration-300 hover:text-red-500">About</a>
         </Link>
 
-        {/* <Link href="/projects">
+        <Link href="/projects">
           <a className="mx-3 duration-300 hover:text-red-500">Projects</a>
-        </Link> */}
+        </Link>
 
         <Link href="/blog">
           <a className="mx-3 duration-300 hover:text-red-500">Blog</a>
@@ -35,7 +35,7 @@ const NavBar = () => {
 
         <Link href="/contact">
           <a className="mx-6">
-            <Button content="Contact" type="primary"></Button>
+            <Button content="Contact"></Button>
           </a>
         </Link>
       </div>

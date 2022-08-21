@@ -3,6 +3,7 @@ import Meta from "@components/Utils/Meta";
 import Skills from "@components/Sections/Skills";
 import { useState } from "react";
 import HomeIntro from "@components/Sections/HomeIntro";
+
 const Home: NextPage = () => {
   const [animated, setAnimated] = useState(false);
   return (
