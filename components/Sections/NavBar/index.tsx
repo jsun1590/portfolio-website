@@ -35,7 +35,7 @@ const NavBar = () => {
 
         <Link href="/contact">
           <a className="mx-6">
-            <Button content="Contact" type="primary"></Button>
+            <Button content="Contact"></Button>
           </a>
         </Link>
       </div>
