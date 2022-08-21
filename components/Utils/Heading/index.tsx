@@ -15,7 +15,7 @@ const Heading = (props: Props) => {
     h2: (
       <h2
         className={
-          "sm:text-5xl lg:text-6xl text-4xl underline decoration-sky-500 mb-10"
+          "sm:text-5xl lg:text-6xl text-4xl underline decoration-sky-500 mt-5 mb-10"
         }
       >
         {props.content}

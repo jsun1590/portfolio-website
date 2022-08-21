@@ -1,0 +1,45 @@
+// WIP project data
+[
+  {
+    "id": "elucidate",
+    "name": "Elucidate Quiz Platform",
+    "link": "https://github.com/jsun1590/2022-Mean-Reversion-Cant-Lose-Til-You-Sell/tree/main",
+    "src": "chess.png",
+    "description": "Aliqua velit culpa id cupidatat. Commodo eiusmod culpa tempor id elit deserunt eu Lorem veniam sint. Veniam mollit non enim adipisicing veniam cillum duis aliquip. Laborum nisi eiusmod non excepteur sunt qui esse. Duis esse tempor fugiat exercitation est consequat anim ullamco labore.",
+    "technologies": {
+      "vue": "Vuedotjs",
+      "nuxt": "Nuxtdotjs",
+      "tailwind": "Tailwindcss",
+      "jest": "Jest",
+      "cypress": "Cypress",
+      "python": "Python",
+      "django": "Django",
+      "postgres": "Postgresql",
+      "docker": "Docker",
+      "railway": "Railway"
+    }
+  },
+  {
+    "id": "mean-reversion",
+    "name": "Quantitative Trading Project 2022",
+    "link": "https://github.com/jsun1590/2022-Mean-Reversion-Cant-Lose-Til-You-Sell/tree/main",
+    "src": "chess.png",
+    "description": "Aliqua velit culpa id cupidatat. Commodo eiusmod culpa tempor id elit deserunt eu Lorem veniam sint. Veniam mollit non enim adipisicing veniam cillum duis aliquip. Laborum nisi eiusmod non excepteur sunt qui esse. Duis esse tempor fugiat exercitation est consequat anim ullamco labore.",
+    "technologies": {
+      "python": "Python",
+      "pandas": "Pandas"
+    }
+  },
+  {
+    "id": "wordle-solver",
+    "name": "Wordle Solver",
+    "link": "",
+    "src": "chess.png",
+    "description": "Aliqua velit culpa id cupidatat. Commodo eiusmod culpa tempor id elit deserunt eu Lorem veniam sint. Veniam mollit non enim adipisicing veniam cillum duis aliquip. Laborum nisi eiusmod non excepteur sunt qui esse. Duis esse tempor fugiat exercitation est consequat anim ullamco labore.",
+    "technologies": {
+      "javascript": "Javascript",
+      "python": "Python",
+      "flask": "Flask"
+    }
+  }
+]
