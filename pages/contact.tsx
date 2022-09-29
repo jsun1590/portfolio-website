@@ -23,7 +23,7 @@ const Contact: NextPage = () => {
           spellCheck={false}
           contentEditable={true}
           suppressContentEditableWarning={true}
-          className="p-3 overflow-y-scroll font-mono border w-fit h-80"
+          className="p-3 overflow-y-scroll font-mono border max-w-max h-80"
         >
           -----BEGIN PGP PUBLIC KEY BLOCK-----
           <br />
