@@ -17,7 +17,7 @@
     "next-themes": "0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-wavify": "1.5.8",
+    "react-wavify": "1.10.0",
     "sharp": "0.30.7",
     "simple-icons": "^7.7.0"
   },
