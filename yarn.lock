@@ -2013,12 +2013,10 @@ react-is@^16.13.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-wavify@1.5.8:
-  version "1.5.8"
-  resolved "https://registry.yarnpkg.com/react-wavify/-/react-wavify-1.5.8.tgz#7fd8ec6594d3b9c5ba36d841e95fee7a8f60eab6"
-  integrity sha512-vqjoYrvRQj9IcCQsxjMxc9RO21Liza/Y0ecjvFnr0gMvzudh5PGq+jTPvGz1WCRlo5jhA9ng5zeYpMQlsUBD3g==
-  dependencies:
-    prop-types "^15.8.1"
+react-wavify@1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/react-wavify/-/react-wavify-1.10.0.tgz#93c0531554a2bdca2ed864ba92e4319e06369c35"
+  integrity sha512-xd9Ruh9Kn3257T/Mr9D3qGwbTPt6+nMdqNdeXoogwwd4OSfGDc1RasNoR9DrnxYDwegUTW5UsJbbGh+krw+YQg==
 
 react@18.2.0:
   version "18.2.0"
